@@ -130,14 +130,14 @@
   .section-2 h4,
   .section-3 h4,
   footer {
-    font-size: 22px;
+    font-size: 21px;
    
   }
   
   .section-1 h5,
   .section-2 h5,
   .section-3 h5 {
-    font-size: 19px;
+    font-size: 18px;
     margin-bottom: 2px;
   }
   
@@ -145,7 +145,7 @@
   .section-2 h6,
   .section-3 h6 {
     color: #000000;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 6px;
     font-weight: 600;
   }
@@ -299,12 +299,16 @@
   /******************************************************************************************************/
   
   footer {
-    height: 5vh;
+    height: 3vh;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+
     min-width: 280px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+  }
+
+  footer span {
+    margin-top: 10px;
   }
   
